@@ -1,0 +1,54 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# yfinance / data cache
+*.csv
+cache/
+data/
+
+# matplotlib output
+*.png
+*.jpg
+*.pdf
+!ProjectReport.pdf
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/

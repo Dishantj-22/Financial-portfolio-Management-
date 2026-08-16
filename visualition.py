@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 
+
 def plot_portfolio(stock_values):
+    """Render a bar chart of stock values in the portfolio."""
     tickers = list(stock_values.keys())
     values = list(stock_values.values())
 
